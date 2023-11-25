@@ -1,0 +1,12 @@
+.category {
+    background: black;
+    width: calc(50% - 5px);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    .category {
+      width: calc(25% - 10px);
+    }
+  }

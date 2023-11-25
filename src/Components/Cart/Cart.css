@@ -1,0 +1,32 @@
+.move-icon {
+  transition: transform 0.5s ease;
+}
+
+.move-icon.clicked {
+  transform: translateX(100px);
+}
+
+.right {
+  animation: slideCart 0.2s ease;
+}
+
+.left{
+  animation: opac 1s ease;
+}
+
+@keyframes slideCart {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes opac {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

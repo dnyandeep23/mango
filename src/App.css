@@ -1,0 +1,21 @@
+.image-login{
+    background-image: url("C:\Users\dnyan\OneDrive\Desktop\Mango App\client\src\assets\tree.jpg");
+    background-size: cover;
+}
+.kokan{
+    background-image: url("C:\Users\dnyan\OneDrive\Desktop\Mango App\client\src\assets\Konkan.jpg");
+    background-size: cover;
+}
+.image-about{
+    background-image: url("C:\Users\dnyan\OneDrive\Desktop\Mango App\client\src\assets\mango_bg1.png");
+    background-size: cover;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }

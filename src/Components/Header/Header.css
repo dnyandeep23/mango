@@ -1,0 +1,53 @@
+.main-header.sticky-header {
+  position: sticky;
+  top: 0;
+  animation: stickyHeader 0.3s ease forwards;
+}
+
+
+
+.ct {
+  min-width: 20px;
+  text-align: center;
+  background-color: #e23f2d;
+  padding: 2.5px;
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 10px;
+}
+.day{
+  animation: t 0.3s ease forwards;
+  visibility: hidden;
+}
+
+.visited:hover > .visit:not(:hover) {
+  filter: blur(10px);
+}
+
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes t {
+  0% {
+    transform: translateY(180px);
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}

@@ -1,0 +1,22 @@
+
+@keyframes swipe {
+    0% {
+      background-position: -200px;
+    }
+    100% {
+      background-position: 200px;
+    }
+  }
+  
+  .swipe-background {
+    background: linear-gradient(to bottom,  rgba(0, 0, 0, 0.415), #000000);
+    background-size: 200% 100%;
+    animation: swipe 5s forwards;
+    z-index: 1;
+  }
+  .btn-three{
+   
+    z-index: 2;
+  }
+
+  

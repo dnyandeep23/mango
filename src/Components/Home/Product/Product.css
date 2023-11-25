@@ -1,0 +1,11 @@
+.product-card {
+    width: calc(50% - 7px);
+    margin-bottom: 20px;
+   
+  }
+  
+  @media (min-width: 768px) {
+    .product-card {
+      width: calc(25% - 17px);
+    }
+  }
